@@ -1,0 +1,22 @@
+{
+  "name": "protosass",
+  "version": "1.0.0",
+  "description": "A no-brainer sass-testing setup.",
+  "scripts": {
+    "start": "sass --watch _sass/:public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sansSpoon/protoSass.git"
+  },
+  "keywords": [
+    "sass",
+    "testing"
+  ],
+  "author": "sansSpoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sansSpoon/protoSass/issues"
+  },
+  "homepage": "https://github.com/sansSpoon/protoSass#readme"
+}
