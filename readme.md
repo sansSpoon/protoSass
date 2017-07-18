@@ -22,7 +22,6 @@ or it can be run from npm (not really needed):
 -	setup the package `npm init`
 	-	removed the *main* node as it is not needed here
 	-	specify GitHub repo `https://github.com/sansSpoon/protoSass.git`
-		-	did this even before the repo was created
 	-	default everything else
 	-	added the script entry
 		-	`sass --watch _sass/:public/css/`
@@ -31,3 +30,7 @@ or it can be run from npm (not really needed):
 	-	`git config user.email "sans.spoon@gmail.com"`
 	-	`printf ".DS_Store\n.sass-cache\n" > .gitignore`
 	-	`touch public/css/.gitkeep`
+	-	`git add .`
+	-	`git commit -m "Initial Commit"`
+	-	`git remote add 'github' https://github.com/sansSpoon/protoSass.git`
+	-	`git push -u github master`
