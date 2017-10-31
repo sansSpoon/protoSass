@@ -1,7 +1,8 @@
 ## protoSass Setup
-This is a no-brainer sass-testing setup. I created it so I can pull down a basic template to run Sass ideas from. There are minimal dependancies for npm, no taksrunners, and nothing to get in the way.
+This is a no-brainer sass-testing setup. I created it so I can pull down a basic template to run Sass ideas from. There are minimal dependancies for npm, no taskrunners, and nothing to get in the way.
 
 Super simple usage:
+
 `npm start`
 
 
@@ -32,9 +33,10 @@ Super simple usage:
 	-	`git push -u github master`
 
 ## Version Info
-1.0.0	Initial Build
+-	1.0.0.
+	-	Initial Build
 	-	basic npm wrapper for Sass
 	
-1.1.0	Add Autoprefixer
+-	1.1.0.
 	-	adds Autoprexifer using postcss-cli
 	-	start command runs scripts in parallel
