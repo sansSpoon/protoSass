@@ -1,12 +1,8 @@
 ## protoSass Setup
-This is a no-brainer sass-testing setup. I created it so I can pull down a basic template to run Sass ideas from. There are no dependancies, no plugins, and nothing to get in the way.
+This is a no-brainer sass-testing setup. I created it so I can pull down a basic template to run Sass ideas from. There are minimal dependancies for npm, no taksrunners, and nothing to get in the way.
 
 Super simple usage:
--	`sass --watch _sass/:public/css/`
-	-	Sass sourcemaps are automatically created
-	
-or it can be run from npm (not really needed):
--	`npm start`
+`npm start`
 
 
 ### The template was created with
@@ -34,3 +30,11 @@ or it can be run from npm (not really needed):
 	-	`git commit -m "Initial Commit"`
 	-	`git remote add 'github' https://github.com/sansSpoon/protoSass.git`
 	-	`git push -u github master`
+
+## Version Info
+1.0.0	Initial Build
+	-	basic npm wrapper for Sass
+	
+1.1.0	Add Autoprefixer
+	-	adds Autoprexifer using postcss-cli
+	-	start command runs scripts in parallel
